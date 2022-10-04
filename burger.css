@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.image{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.link{
+    flex:1
+}
+.link ul{
+    margin-left: 50px;
+    display: inline;
+}
+.link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.link ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+
+}
+.btn{
+    padding:10px 20px;
+    border:0;
+    background-color: yellow;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.link .btn{
+    float: right;
+
+}
+.title{
+    margin: 80px 130px;
+    color: white;
+}
+.title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.title h1 span{
+    color: yellow;
+}
+.yes{
+    height: 100%;
+    background: black;
+    top:0;
+    left:0;
+    position:absolute;
+}
+.icon .fa{
+    margin: 45px 20px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+}
+.icon1{
+    height: 35%;
+    width:70px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.icon1 .fa{
+    margin: 10px 23px;
+    display: block;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.notifications{
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: yellows;
+}
